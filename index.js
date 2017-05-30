@@ -39,8 +39,8 @@
     for(var y = 0; y < req.rows; y++) {
       for(var x = 0; x < req.columns; x++) {
         this.modules.push({
-          x: (x * req.moduleWidth) + (x * req.gutterWidth),
-          y: (y * req.moduleHeight) + (y * req.gutterHeight),
+          x: req.x + (x * req.moduleWidth) + (x * req.gutterWidth),
+          y: req.y + (y * req.moduleHeight) + (y * req.gutterHeight),
           width: req.moduleWidth,
           height: req.moduleHeight
         });

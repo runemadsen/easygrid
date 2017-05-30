@@ -32,7 +32,7 @@ console.log(myModule) // -> { x:.., y:.., width:.., height:.. }
 EasyGrid is very flexible, and can be created using a combination of parameters. Here's a simple grid where the module width and height are calculated automatically based on the grid width and height.
 
 ```js
-var grid = r.grid({
+var grid = new EasyGrid({
   x: 10,
   y: 10,
   width: 500,
@@ -46,7 +46,7 @@ var grid = r.grid({
 Here is the opposite example where the overall width and height of the grid is calculated based on the module width and height. The code below will create the exact same grid as the code above.
 
 ```js
-var grid = r.grid({
+var grid = new EasyGrid({
   x: 10,
   y: 10,
   moduleWidth: 50,
