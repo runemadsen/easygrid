@@ -1,0 +1,13 @@
+{
+  "name": "easygrid",
+  "version": "1.0.0",
+  "description": "A JavaScript library for calculating grid system positions in memory",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/runemadsen/easygrid"
+  },
+  "main": "src/index.js",
+  "author": "runemadsen",
+  "license": "MIT",
+  "dependencies": {}
+}
