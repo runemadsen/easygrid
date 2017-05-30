@@ -1,6 +1,6 @@
 # EasyGrid
 
-EasyGrid is a simple JavaScript utility that allows you to create an in-memory grid and get the positions of each module. It works in Node.js and the browser right out of the box.
+EasyGrid is a simple JavaScript utility that allows you to create an in-memory grid and get the positions of each module in the grid. It can automatically calculate module sizes based on an overall width and height, or calculate the overall width and height based on the module sizes. It supports module gutters, it works in both Node.js and the browser, and it's less than 1kb minified.
 
 ## Getting Started
 
