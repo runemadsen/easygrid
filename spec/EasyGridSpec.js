@@ -22,4 +22,12 @@ describe("EasyGrid", function() {
     expect(myModule.height).toEqual(245);
   });
 
+  it("should give back correct position of last module", function() {
+    var myModule = grid.getModule(10, 2);
+    expect(myModule.x).toEqual(469);
+    expect(myModule.y).toEqual(265);
+    expect(myModule.width).toEqual(41);
+    expect(myModule.height).toEqual(245);
+  });
+
 });
